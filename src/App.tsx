@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import "./App.css"
 
 //const GRID_SIZE = 10
-const BACKEND_URL = "http://127.0.0.1:5000"
+const BACKEND_URL = "https://bship-backend.onrender.com"
 
 function scoreToColor(score: number): string {
 	const maxScore = 34
