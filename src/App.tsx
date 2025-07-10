@@ -28,7 +28,7 @@ function App() {
 	const [scores, setScores] = useState<number[][]>([])
 	const [loading, setLoading] = useState(true)
 	const [selected, setSelected] = useState<[number, number] | null>(null)
-	const [message, setMessage] = useState<string | null>(null)
+	const [, setMessage] = useState<string | null>(null)
 	const [prompt, setPrompt] = useState<PromptState | null>(null)
 	const [selectingSunk, setSelectingSunk] = useState(false)
 	const [sunkenSquares, setSunkenSquares] = useState<[number, number][]>([])
